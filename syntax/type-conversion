@@ -1,0 +1,11 @@
+base = 6
+height = 3
+area = (base*height)/2
+## print("The area of the triangle is: " + area) # this will throw an error
+
+print("The area of the triangle is: " + str(area)) 
+
+print(7+8.5) # ok to mix integer and float
+
+print(7+"8") 
+# this will throw an error
