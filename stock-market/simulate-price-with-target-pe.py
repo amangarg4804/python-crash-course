@@ -32,11 +32,11 @@ def simulate_price_with_target_pe(start_eps, start_pe, target_pe, eps_growth_rat
     return pd.DataFrame(data)
 
 # ==== Example parameters ====
-start_eps = 341.0         # Starting EPS
-start_pe = 27.1          # Starting P/E
-target_pe = 29.1         # Target P/E at the end of period
+start_eps = 14.7         # Starting EPS
+start_pe = 32.6          # Starting P/E
+target_pe = 51         # Target P/E at the end of period
 eps_growth_rate = 0.10   # EPS growth rate per year (15% = 0.15)
-years = 3                # Number of years to reach target P/E
+years = 1                # Number of years to reach target P/E
 
 # Run simulation
 df = simulate_price_with_target_pe(start_eps, start_pe, target_pe, eps_growth_rate, years)
